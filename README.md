@@ -38,30 +38,29 @@ To run the Python files in this project, follow these steps:
 The resulting file (final_instagram_guinnessadvisor_geocoded.xlsx) can be used for data visualization in Tableau or other similar visualtion tools.
 
 # Data Extraction 🔑
-The Apify application was used to extract Instagram posts tagged with the hashtag #GuinnessAdvisor. The extracted data included the post's caption, date, and location, as well as the number of likes and comments.
+The Apify application was used to extract Instagram posts exporting Intragram users PieReivewAu and PieReviewGuy posts. The extracted data included the post's caption, date, and location, as well as the number of likes and comments.
+
+A second extract was taken from Instragram tagged users from post to extract location of the Pies.
+
+![image](https://github.com/user-attachments/assets/37c4fe9f-c08c-4a58-be1c-f5e910a3482e)
 
 # Data Cleaning 🧼
-The extracted data was cleaned using Python's Pandas library to remove any duplicate posts, and to reformat the date and time columns for easier analysis.
+The extracted data was cleaned using Excel to remove any duplicate posts, and to reformat the date and time columns for easier analysis.
 
-# Geocoding 🗺
-The original data was also joined with geocoded addresses using Python's Pandas library. The geocoded data was then exported to a new file, ready for data visualization in Tableau or Power BI.
 
 # Data Analysis 📊
-The cleaned data was then loaded into Tableau, where a dashboard was created to analyze the data. The dashboard included visualizations of the total number of posts, likes, and comments, as well as the top ratings and locations.
+The cleaned data was then loaded into PowerBI, where a dashboard was created to analyze the data. The dashboard included visualizations of the total number of posts, likes, and comments, as well as the top ratings and locations.
 
 
 # Files
 The following files were used in this project:
 
 - README.md: Description file outlining the project
-- main.py: Python script for manipulating and cleansing data from exported Instagram data using the Apify application
-- geocode.py: Python script for enriching address information and identifying longitude and latitude coordinates
-- join.py: Python script for joining the cleaned data with geocoded addresses
 - final_instagram_guinnessadvisor.xlsx: The cleaned data file
 - geocode_addresses.xlsx: The geocoded addresses file
 - final_instagram_guinnessadvisor_geocoded.xlsx: The final cleaned, geocoded data file 
-- Instagram Guinness Advisor Dashboard.twbx: The Tableau dashboard file
+- InstagramMeatPieRaterDashboard.jpg: The PowerBI dashboard file
 
 # Conclusion
-This project demonstrates the power of Python and Tableau in extracting, clensing and analyzing data from popular media platfroms. By using these tools, I was able to present information from Instagram in a dynamic, fun and visually aesthetic dashboard.
+This project demonstrates the power of Data scrapers, Excel and PowerBI in extracting, clensing and analyzing data from popular media platfroms. By using these tools, I was able to present information from Instagram in a dynamic, fun and visually aesthetic dashboard.
 
