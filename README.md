@@ -16,27 +16,6 @@ To run the this project, you will need to have the following software installed:
 - Google Maps API key
 - Power BI Desktop
 
-
-# Getting Started 🛠
-To run the Python files in this project, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Install the required Python libraries using pip.
-3. Place the Apify output file (instagram_guinnessadvisor.xlsx) in the project directory.
-4. Run the following command to clean the resulting data:
-
-    **main.py**
-
-5. Run the following command to geocode the address field
-
-     **geocode.py**
-
-6. Run the following command to join the cleaned data with the geocode data and produce a geocoded output file:
-
-    **join.py**
-
-The resulting file (final_instagram_guinnessadvisor_geocoded.xlsx) can be used for data visualization in Tableau or other similar visualtion tools.
-
 # Data Extraction 🔑
 The Apify application was used to extract Instagram posts exporting Intragram users PieReivewAu and PieReviewGuy posts. The extracted data included the post's caption, date, and location, as well as the number of likes and comments.
 
@@ -56,8 +35,8 @@ The cleaned data was then loaded into PowerBI, where a dashboard was created to 
 The following files were used in this project:
 
 - README.md: Description file outlining the project
-- final_instagram_guinnessadvisor.xlsx: The cleaned data file
-- geocode_addresses.xlsx: The geocoded addresses file
+- dataset_intafram-scraper-task_Meat_Pie.xlsx: The cleaned data file
+- dataset_intafram-scraper-task_Locations.xlsx: The geocoded addresses file
 - final_instagram_guinnessadvisor_geocoded.xlsx: The final cleaned, geocoded data file 
 - InstagramMeatPieRaterDashboard.jpg: The PowerBI dashboard file
 
