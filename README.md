@@ -3,8 +3,6 @@
 
 **PBI PUBLIC** - Check it out:
 
-##h/ttps://public.tableau.com/app/profile/kevin.killion/viz/Guinness_Advisor_Dark/DashboardDark
-
 # **Instagram Meat Pie Review Data Extraction, Geocoding & Power BI Visualisation** 
 This is a project that demonstrates how to scrape and analyse Instagram data using Apify, Python, and Google Maps API, and then visualize it using Power BI. The project involves scraping Instagram data from a specific profile, data cleansing, data enriching, geocoding and data visualisation.
 
