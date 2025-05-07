@@ -1,7 +1,7 @@
 
 ![Meat Pie Review Power BI Image](https://github.com/GEdnieLockett/DataScraper_MeatPieReview/blob/main/InstagramMeatPieRaterPBI.jpg)
 
-**PBI PUBLIC** - Check it out:
+
 
 # **Instagram Meat Pie Review Data Extraction, Geocoding & Power BI Visualisation** 
 This is a project that demonstrates how to scrape and analyse Instagram data using Apify, Python, and Google Maps API, and then visualize it using Power BI. The project involves scraping Instagram data from a specific profile, data cleansing, data enriching, geocoding and data visualisation.
